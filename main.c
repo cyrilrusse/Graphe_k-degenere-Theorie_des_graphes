@@ -14,7 +14,8 @@ int main(){
     afficherGraphe(test);
     supprimerGraphe(test);
 
-
+    free(test);
 
     return 0;
 }
+
